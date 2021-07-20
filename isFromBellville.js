@@ -1,3 +1,3 @@
-module.exports = function(registrationNo) {
+module.exports = (registrationNo)=> {
     return registrationNo.startsWith("CY");
 };

@@ -1,8 +1,17 @@
 {
-  "devDependencies": {
-    "mocha": "^8.4.0"
+  "name": "bootcamp_terminal_tests",
+  "version": "1.0.0",
+  "description": "Bootcamp terminal unit tests",
+  "main": "countAllFromTown.js",
+  "directories": {
+    "test": "test"
   },
   "scripts": {
     "test": "mocha"
-   }
+  },
+  "author": "Miguel",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  }
 }
