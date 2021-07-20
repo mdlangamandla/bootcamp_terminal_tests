@@ -1,4 +1,4 @@
-module.exports = function (rNumbers) {
+module.exports = (rNumbers)=> {
     var arr = rNumbers.split(",");
     var newArr = [];
     for (var i = 0; i < arr.length; i++) {

@@ -1,4 +1,4 @@
-module.exports = function (list) {
+module.exports = (list)=> {
     var obj = {};
     var mostSales = 0;
     var mostDep = undefined;
